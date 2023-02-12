@@ -1,0 +1,208 @@
+:root {
+    --blue1: #122d7d;
+    --left_mar: 25%;
+    --right_mar: 40%;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/* here is the css for the title */
+
+.title {
+    margin-bottom: 50px;
+}
+
+.title h1 {
+    font-size: 50px;
+    margin-left: var(--left_mar);
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.title h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: var(--blue1);
+    margin-left: var(--left_mar);
+}
+
+/* all the h3 and text elements */
+
+h3 {
+    margin-left: var(--left_mar);
+    color: var(--blue1);
+    font-size: 25px;
+    font-weight: bold;
+    width: 150px;
+}
+
+h6 {
+    color: var(--blue1);
+    font-size: 17px;
+    margin: 0;
+}
+
+.text {
+    font-size: 17px;
+    width: 507px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.summary {
+    height: 110px;
+}
+
+.experience {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 275px;
+}
+
+.education {
+    height: 175px;
+}
+
+.skill {
+    height: 67px;
+}
+
+/* here is the all code for left and right alignments */
+
+.right {
+    position: relative;
+    left: var(--right_mar);
+    top: -35px;
+    border-top: 4px solid var(--blue1);
+    width: 500px;
+    padding-top: 15px;
+}
+
+.left {
+    margin: 0;
+}
+
+/* here is the code for the experience */
+
+.creater {
+    font-style: italic;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.timezone {
+    color: #7d7d7d;
+    margin-top: 7px;
+}
+
+.exp_info {
+    position: relative;
+    left: 240px;
+    top: -87px;
+    font-size: 17px;
+    width: 263px;
+}
+
+.topic1 {
+    margin: 0;
+    height: 150px;
+}
+
+.topic2 {
+    margin: 0;
+    height: 150px;
+}
+
+/* here is the code for education */
+
+.edu_info {
+    position: relative;
+    left: 240px;
+    top: -68px;
+}
+
+.subtle {
+    font-style: italic;
+}
+
+.edu1, .edu2 {
+    height: 100px;
+}
+
+/* here is the code for the contact */
+
+.element1{
+    position: relative;
+    top: 10px;
+}
+
+.element2{
+    position: relative;
+}
+
+.element1 img {
+    height: auto;
+    width: 25px;
+    position: relative;
+}
+
+.element2 img {
+    height: auto;
+    width: 25px;
+    position: relative;
+}
+
+.element2 p {
+    position: relative;
+    left: 36px;
+    top: -37px;
+}
+
+.element3 img {
+    height: auto;
+    width: 35px;
+    position: relative;
+}
+
+.element3 p {
+    position: relative;
+    left: 43px;
+    top: -40px;
+}
+
+.element4 img {
+    height: auto;
+    width: 25px;
+    position: relative;
+}
+
+.element4 p {
+    position: relative;
+    left: 43px;
+    top: -40px;
+}
+
+.element1 p {
+    position: relative;
+    left: 36px;
+    top: -34px;
+}
+
+.element3{
+    position: relative;
+    left: 280px;
+    top: -145px;
+}
+
+.element4{
+    position: relative;
+    left: 280px;
+    top: -158px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
